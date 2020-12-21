@@ -1,21 +1,39 @@
 {
   "name": "annoying-brand",
+  "homepage": "https://annoying.tambak.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@popperjs/core": "^2.5.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^10.0.4",
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.4",
+    "form-data": "^3.0.0",
+    "jwt-decode": "^3.1.2",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
     "react": "^17.0.1",
+    "react-autosuggest": "^10.0.4",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-slick": "^0.27.13",
+    "redux": "^4.0.5",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^2.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/style/tailwind.css -o src/style/main.css"
   },
   "eslintConfig": {
     "extends": [
