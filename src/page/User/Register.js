@@ -79,7 +79,7 @@ export default class RegisterUser extends React.Component{
                                                         this.passwordChange()}}/>
                                                 </div>
                                                 <div>
-                                                    <InputBottomBorder className="my-3" name="Password" label="Password Konfirmasi" type="passwordKonfirmasi" onChange={(value)=>{
+                                                    <InputBottomBorder className="my-3" name="Password" label="Password Konfirmasi" type="password" onChange={(value)=>{
                                                         this.passwordKonfirmasi=value
                                                         this.passwordChange()
                                                         }

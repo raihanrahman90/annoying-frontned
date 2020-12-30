@@ -67,7 +67,7 @@ class BarangList extends React.Component{
                                                 <tr>
                                                     <td>{key}</td>
                                                     <td>{key1}</td>
-                                                    <td>{stock[key][key1]}</td>
+                                                    <td>{index}</td>
                                                 </tr>
                                             ))}
                                             </>
